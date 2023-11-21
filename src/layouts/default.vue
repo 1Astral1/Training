@@ -1,7 +1,9 @@
 <template>
     <TheHeader />
-
-    <main>
-        <slot />
-    </main>
+    <div class="flex container">
+        <SideBar />
+        <main>
+            <slot />
+        </main>
+    </div>
 </template>
